@@ -11,6 +11,7 @@ In the opposite case, the hook will simply execute the functions it has overwrit
 ## Issues
 - Sometimes the "loader" attempts to hook Task Manager too early in it's execution, failing to open an handle to the process.
 - Admin privileges are required.
+- 64bit only
 
 ## Disclaimer
 This code is for educational purposes only. I do not take any responsability for any misuse of this code by any third party, please be civil and only use this piece of code in legitimate software without causing any harm or damage to anyone or anything.
