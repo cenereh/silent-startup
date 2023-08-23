@@ -1,5 +1,5 @@
 /*
-*  --- Silent Startup PoC by oct0ling. ---
+*  --- Silent Startup PoC by cinder/cenereh. ---
 * 
 *	This PoC showcases how a specific executable can be hidden from Task Manager startup view 
 *	by hooking TmRegGetSZAndExpValue.
@@ -21,7 +21,7 @@
 int main(int argc, char** argv)
 {
 	// intro here
-	std::cout << dye::aqua("silent startup ") << "by " << dye::red("oct0ling") << "\n";
+	std::cout << dye::aqua("silent startup ") << "by " << dye::red("cenereh") << "\n";
 
 	// Wait for task manager process to start in order to place hook.
 	std::cout << "waiting for task manager to open...\n";
